@@ -3,29 +3,29 @@ Python 2.7 with pip
 
 ### Installation
 
-#### 1) Clone this repo
+1) Clone this repo
 ```
 git clone git@github.com:johnbk/clirpg.git
 ```
-#### 2) Switch to the repo's root directory from terminal
+2) Switch to the repo's root directory from terminal
 ```
 cd clirpg
 ```
 
-#### 3) Install virtualenv if not already installed
+3) Install virtualenv if not already installed
 https://virtualenv.pypa.io/en/stable/installation/
 
-#### 4) Create virtual environment
+4) Create virtual environment
 ```
 virtualenv venv
 ```
 
-#### 5) Activate virutal environment
+5) Activate virutal environment
 ```
 source venv/bin/activate
 ```
 
-#### 6) Install depenedencies
+6) Install depenedencies
 ```
 pip install -r requirements.txt
 ```
