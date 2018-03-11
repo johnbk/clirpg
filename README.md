@@ -13,6 +13,7 @@ cd clirpg
 ```
 
 3) Install virtualenv if not already installed
+
 https://virtualenv.pypa.io/en/stable/installation/
 
 4) Create virtual environment
