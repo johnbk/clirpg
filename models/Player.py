@@ -11,6 +11,4 @@ class Player:
         return self.character
 
     def fight(self, opponent):
-        print opponent.get_character().get_weightage()
         return opponent.get_character().get_weightage()
-
