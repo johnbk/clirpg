@@ -65,6 +65,12 @@ class Zestwar(object):
             print "Place does not exist"
 
     def fight(self, opponent_nick_name):
+        """
+        Allows a player to fight
+
+        Args:
+            opponent_nick_name (str): Nick name of the opponent character
+        """
         state = get_state()
         character = state['character']
 
@@ -111,7 +117,7 @@ class Zestwar(object):
 
     def reset(self):
         """
-        Reset game - forget everythings
+        Reset game - forget everything
         """
         reset_state()
 
