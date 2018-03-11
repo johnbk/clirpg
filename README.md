@@ -2,29 +2,30 @@
 Python 2.7 with pip
 
 ### Installation
+
 #### 1) Clone this repo
 ```
 git clone git@github.com:johnbk/clirpg.git
 ```
-### 2) Switch to the repo's root directory from terminal
+#### 2) Switch to the repo's root directory from terminal
 ```
 cd clirpg
 ```
 
-#### 2) Install virtualenv if not already installed
+#### 3) Install virtualenv if not already installed
 https://virtualenv.pypa.io/en/stable/installation/
 
-#### 3) Create virtual environment
+#### 4) Create virtual environment
 ```
 virtualenv venv
 ```
 
-#### 4) Activate virutal environment
+#### 5) Activate virutal environment
 ```
 source venv/bin/activate
 ```
 
-#### 5) Install depenedencies
+#### 6) Install depenedencies
 ```
 pip install -r requirements.txt
 ```
@@ -42,7 +43,18 @@ fight
 reset
 ```
 
-#### Getting help on how to run individual commands
+Example: On the terminal from the root of the repo
+```
+python zestwar.py list-characters
+python zestwar.py list-places
+python zestwar.py play-character luke
+python zestwar.py epxlore-place naboo
+python zestwar.py fight jabba
+python zestwar.py reset
+```
+
+
+#### Get help for each command
 ```
 python zestwar.py <command_name> --help
 ```
